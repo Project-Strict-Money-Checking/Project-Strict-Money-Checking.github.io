@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>Zarinegobi — A pocket ledger for thrifty souls</title>
-<meta name="description" content="A Swift 6 Strict Concurrency money-tracking app for iOS, macOS, and watchOS. Category analytics, widgets, Apple Watch, Siri Shortcut, iCloud sync." />
+<meta name="description" content="A money-tracking app for iPhone and iPad. Category analytics, home & lock-screen widgets, and seamless iCloud sync." />
 <meta name="theme-color" content="#0A0A0B" media="(prefers-color-scheme: dark)" />
 <meta name="theme-color" content="#FAFAF8" media="(prefers-color-scheme: light)" />
 <link rel="canonical" href="https://project-strict-money-checking.github.io/en/" />
@@ -15,10 +15,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:title" content="Zarinegobi — A pocket ledger for thrifty souls" />
-<meta property="og:description" content="Category analytics, home widgets, Apple Watch, Siri Shortcut, and iCloud sync in one tidy little ledger." />
+<meta property="og:description" content="Category analytics, home & lock-screen widgets, and seamless iCloud sync — in one tidy little ledger." />
 <meta property="og:url" content="https://project-strict-money-checking.github.io/en/" />
 <meta property="og:site_name" content="Zarinegobi" />
 <meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/png" href="/assets/images/gobi.png" />
+<link rel="apple-touch-icon" href="/assets/images/gobi.png" />
 <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <body>
@@ -26,14 +28,7 @@
 <header class="site-header">
   <div class="container">
     <a class="brand" href="/en/" aria-label="Zarinegobi home">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 9 6 5l3 2h6l3-2 2 4v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9Z"/>
-          <circle cx="9" cy="13" r="1" fill="#fff" stroke="none"/>
-          <circle cx="15" cy="13" r="1" fill="#fff" stroke="none"/>
-          <path d="M10.5 16c.5.5 1 .7 1.5.7s1-.2 1.5-.7"/>
-        </svg>
-      </span>
+      <img class="brand-mark" src="/assets/images/gobi.png" alt="" width="34" height="34" />
       <span>Zarinegobi</span>
     </a>
     <nav class="nav" aria-label="Primary">
@@ -55,7 +50,7 @@
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow reveal d1"><span class="dot"></span> iOS · macOS · watchOS</span>
+      <span class="eyebrow reveal d1"><span class="dot"></span> iOS · iPadOS</span>
       <h1 class="reveal d2">
         Today's <span class="accent-expense">spend</span>,<br />
         tomorrow's <span class="accent-income">income</span> —<br />
@@ -63,9 +58,8 @@
         <span class="en">Zarinegobi — your pocket ledger.</span>
       </h1>
       <p class="lead reveal d3">
-        A money-tracking app built with Swift 6 Strict Concurrency.
-        Category analytics, home widgets, Apple Watch, Siri Shortcut,
-        and iCloud sync — the moment you type, it's already organized.
+        Category analytics, home and lock-screen widgets, and seamless iCloud sync.
+        The moment you type, it's already organized — exactly as much as you need.
       </p>
       <div class="cta-row reveal d4">
         <a class="btn btn-primary" href="https://apps.apple.com/app/id6740001506" rel="noopener">
@@ -75,9 +69,8 @@
         <a class="btn btn-secondary" href="#features">See features</a>
       </div>
       <div class="platform-badges reveal d5">
-        <span>iOS 17+</span>
-        <span>macOS 14+</span>
-        <span>watchOS 10+</span>
+        <span>iOS 26+</span>
+        <span>iPadOS 26+</span>
         <span>한국어 · English · 日本語</span>
       </div>
     </div>
@@ -131,7 +124,7 @@
   <div class="container">
     <div class="section-head">
       <div class="tag">FEATURES</div>
-      <h2>Eight honest tools — nothing more.</h2>
+      <h2>Six honest tools — nothing more.</h2>
       <p>What a ledger should have. Exactly that much.</p>
     </div>
 
@@ -156,8 +149,8 @@
         <span class="feature-icon" style="--c1:#C7B8FF; --c2:#9A83FF">
           <svg viewBox="0 0 24 24" fill="none" stroke="#1A1040" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18V9l8-5 8 5v9"/><path d="M9 18v-6h6v6"/></svg>
         </span>
-        <h3>Goals & budgets</h3>
-        <p>Set a monthly cap per category; get a nudge the moment you cross it.</p>
+        <h3>Spending goals</h3>
+        <p>Set a monthly spending goal per category and track how much is left.</p>
       </article>
 
       <article class="feature-card reveal d4">
@@ -168,48 +161,25 @@
         <p>This month's balance and latest spends, pinned to lock screen or home.</p>
       </article>
 
-      <article class="feature-card reveal d4">
-        <span class="feature-icon" style="--c1:#FFC7B0; --c2:#FF9C7A">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#8B3A15" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="18" rx="3"/><circle cx="12" cy="18" r="0.8" fill="#8B3A15"/></svg>
-        </span>
-        <h3>Apple Watch</h3>
-        <p>Tap in an amount from your wrist — spontaneous spends never slip away.</p>
-      </article>
-
-      <article class="feature-card reveal d5">
-        <span class="feature-icon" style="--c1:#FFB3C7; --c2:#FF6E94">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#5C0A1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a4 4 0 0 1 4 4v4a4 4 0 0 1-8 0V7a4 4 0 0 1 4-4Z"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg>
-        </span>
-        <h3>Siri Shortcut</h3>
-        <p>"Log 5,000 won for cafe" — one sentence, via App Intents.</p>
-      </article>
-
       <article class="feature-card reveal d5">
         <span class="feature-icon" style="--c1:#B7D8FF; --c2:#6BA6FF">
           <svg viewBox="0 0 24 24" fill="none" stroke="#0A2A55" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 10c-2 0-3 1.5-3 3.5S4.5 17 6.5 17H17a4 4 0 1 0-1-7.9A6 6 0 0 0 6 10Z"/></svg>
         </span>
         <h3>iCloud sync</h3>
-        <p>iPhone, iPad, Mac, and Watch share one account. Switch devices, keep your book.</p>
+        <p>iPhone and iPad share one account. Switch devices, keep your book.</p>
       </article>
 
       <article class="feature-card reveal d6">
         <span class="feature-icon" style="--c1:#FFE9A3; --c2:#FF9C7A">
           <svg viewBox="0 0 24 24" fill="none" stroke="#5C3800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6Z"/><path d="M8 10h8M8 14h5"/></svg>
         </span>
-        <h3>Shortcuts</h3>
+        <h3>Shortcut</h3>
         <p>Pin a frequent category to home — two taps to record.</p>
       </article>
     </div>
 
     <div class="mascot-strip reveal d6">
-      <svg class="mascot" viewBox="0 0 96 96" fill="none" aria-hidden="true">
-        <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#1E7BFF"/><stop offset="1" stop-color="#6BA6FF"/></linearGradient></defs>
-        <path d="M20 34 L30 20 L40 32 H56 L66 20 L76 34 V66 a10 10 0 0 1 -10 10 H30 a10 10 0 0 1 -10 -10 Z" fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round"/>
-        <circle cx="38" cy="50" r="3" fill="#1E7BFF"/>
-        <circle cx="58" cy="50" r="3" fill="#1E7BFF"/>
-        <path d="M44 60 Q48 64 52 60" stroke="#1E7BFF" stroke-width="2.4" stroke-linecap="round" fill="none"/>
-        <path d="M32 56 h4 M60 56 h4" stroke="#1E7BFF" stroke-width="1.6" stroke-linecap="round"/>
-      </svg>
+      <img class="mascot" src="/assets/images/gobi.png" alt="" width="88" height="88" />
       <p>
         Meet <strong>Gobi</strong>, the blue cat who sits beside your ledger.
         When a splurge tries to sneak past, Gobi gives it the side-eye.
@@ -239,12 +209,10 @@
   <div class="container">
     <div class="about-col">
       <div class="brand" style="margin-bottom: 10px;">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9 6 5l3 2h6l3-2 2 4v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9Z"/><circle cx="9" cy="13" r="1" fill="#fff" stroke="none"/><circle cx="15" cy="13" r="1" fill="#fff" stroke="none"/></svg>
-        </span>
+        <img class="brand-mark" src="/assets/images/gobi.png" alt="" width="34" height="34" />
         <span>Zarinegobi</span>
       </div>
-      <p>A Swift 6 Strict Concurrency ledger for iOS, macOS, and watchOS.</p>
+      <p>An honest little ledger for iPhone and iPad.</p>
     </div>
     <div>
       <h4>Product</h4>
@@ -267,11 +235,10 @@
       <ul>
         <li><a href="/privacy/en.html">Privacy Policy</a></li>
         <li><a href="/terms/en.html">Terms of Service</a></li>
-        <li><a href="https://github.com/HoJongE" rel="noopener">GitHub</a></li>
       </ul>
     </div>
     <div class="legal-line">
-      <span>© 2026 Jaeyong Lee · zarinegobi@gmail.com</span>
+      <span>© 2026 Zarinegobi · zarinegobi@gmail.com</span>
       <span>v. 2026.04.23</span>
     </div>
   </div>

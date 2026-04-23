@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>자린이와 고비 — 절약하고 싶은 당신을 위한 가계부</title>
-<meta name="description" content="Swift 6 Strict Concurrency 기반 iOS·macOS·watchOS 가계부 앱. 카테고리 분석, 위젯, Apple Watch, Siri 지원. iCloud 자동 동기화." />
+<meta name="description" content="iPhone과 iPad를 위한 가계부. 카테고리 분석, 홈·잠금화면 위젯, iCloud 자동 동기화." />
 <meta name="theme-color" content="#0A0A0B" media="(prefers-color-scheme: dark)" />
 <meta name="theme-color" content="#FAFAF8" media="(prefers-color-scheme: light)" />
 <link rel="canonical" href="https://project-strict-money-checking.github.io/" />
@@ -15,10 +15,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="ko_KR" />
 <meta property="og:title" content="자린이와 고비 — 절약하고 싶은 당신을 위한 가계부" />
-<meta property="og:description" content="카테고리별 수입·지출 분석, 홈 화면 위젯, Apple Watch, Siri Shortcut, iCloud 동기화를 한 번에." />
+<meta property="og:description" content="카테고리별 수입·지출 분석, 홈·잠금화면 위젯, iCloud 자동 동기화." />
 <meta property="og:url" content="https://project-strict-money-checking.github.io/" />
 <meta property="og:site_name" content="자린이와 고비" />
 <meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/png" href="/assets/images/gobi.png" />
+<link rel="apple-touch-icon" href="/assets/images/gobi.png" />
 <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <body>
@@ -27,14 +29,7 @@
 <header class="site-header">
   <div class="container">
     <a class="brand" href="/" aria-label="자린이와 고비 홈">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M4 9 6 5l3 2h6l3-2 2 4v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9Z"/>
-          <circle cx="9" cy="13" r="1" fill="#fff" stroke="none"/>
-          <circle cx="15" cy="13" r="1" fill="#fff" stroke="none"/>
-          <path d="M10.5 16c.5.5 1 .7 1.5.7s1-.2 1.5-.7"/>
-        </svg>
-      </span>
+      <img class="brand-mark" src="/assets/images/gobi.png" alt="" width="34" height="34" />
       <span>자린이와 고비</span>
     </a>
     <nav class="nav" aria-label="주요 메뉴">
@@ -57,7 +52,7 @@
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow reveal d1"><span class="dot"></span> iOS · macOS · watchOS</span>
+      <span class="eyebrow reveal d1"><span class="dot"></span> iOS · iPadOS</span>
       <h1 class="reveal d2">
         오늘의 <span class="accent-expense">지출</span>과<br />
         내일의 <span class="accent-income">수입</span>을,<br />
@@ -65,9 +60,8 @@
         <span class="en">Zarinegobi — your pocket ledger.</span>
       </h1>
       <p class="lead reveal d3">
-        Swift 6 엄격 동시성으로 설계한 가계부. 카테고리별 분석, 홈 화면 위젯,
-        Apple Watch, Siri Shortcut, iCloud 자동 동기화까지 —
-        쓰는 순간부터 정리되는 가계부.
+        카테고리별 수입·지출 분석, 홈 화면·잠금화면 위젯, iCloud 자동 동기화까지.
+        쓰는 순간부터 정리되는, 딱 필요한 만큼의 가계부.
       </p>
       <div class="cta-row reveal d4">
         <a class="btn btn-primary" href="https://apps.apple.com/app/id6740001506" rel="noopener">
@@ -77,9 +71,8 @@
         <a class="btn btn-secondary" href="#features">주요 기능 보기</a>
       </div>
       <div class="platform-badges reveal d5">
-        <span>iOS 17+</span>
-        <span>macOS 14+</span>
-        <span>watchOS 10+</span>
+        <span>iOS 26+</span>
+        <span>iPadOS 26+</span>
         <span>한국어 · English · 日本語</span>
       </div>
     </div>
@@ -136,7 +129,7 @@
   <div class="container">
     <div class="section-head">
       <div class="tag">FEATURES</div>
-      <h2>쓰는 순간 정리되는, 여덟 가지 방식</h2>
+      <h2>쓰는 순간 정리되는, 여섯 가지 방식</h2>
       <p>가계부 앱이 가져야 할 것들을, 꼭 필요한 만큼만 — 군더더기 없이.</p>
     </div>
 
@@ -161,8 +154,8 @@
         <span class="feature-icon" style="--c1:#C7B8FF; --c2:#9A83FF">
           <svg viewBox="0 0 24 24" fill="none" stroke="#1A1040" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18V9l8-5 8 5v9"/><path d="M9 18v-6h6v6"/></svg>
         </span>
-        <h3>목표와 예산</h3>
-        <p>카테고리별 월 예산을 정해두면, 초과 시 즉시 알림.</p>
+        <h3>목표 지출금액</h3>
+        <p>카테고리별로 이번 달 목표 지출 금액을 정해 두고, 남은 금액을 한눈에 확인.</p>
       </article>
 
       <article class="feature-card reveal d4">
@@ -173,48 +166,25 @@
         <p>이번 달 잔액·최근 소비를 잠금화면/홈에서 바로.</p>
       </article>
 
-      <article class="feature-card reveal d4">
-        <span class="feature-icon" style="--c1:#FFC7B0; --c2:#FF9C7A">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#8B3A15" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="18" rx="3"/><circle cx="12" cy="18" r="0.8" fill="#8B3A15"/></svg>
-        </span>
-        <h3>Apple Watch</h3>
-        <p>손목에서 금액만 톡. 밖에서 지출 기록도 놓치지 않게.</p>
-      </article>
-
-      <article class="feature-card reveal d5">
-        <span class="feature-icon" style="--c1:#FFB3C7; --c2:#FF6E94">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#5C0A1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a4 4 0 0 1 4 4v4a4 4 0 0 1-8 0V7a4 4 0 0 1 4-4Z"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg>
-        </span>
-        <h3>Siri Shortcut</h3>
-        <p>"카페 5천원 기록해줘" 한 마디로 App Intents 연동.</p>
-      </article>
-
       <article class="feature-card reveal d5">
         <span class="feature-icon" style="--c1:#B7D8FF; --c2:#6BA6FF">
           <svg viewBox="0 0 24 24" fill="none" stroke="#0A2A55" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 10c-2 0-3 1.5-3 3.5S4.5 17 6.5 17H17a4 4 0 1 0-1-7.9A6 6 0 0 0 6 10Z"/></svg>
         </span>
         <h3>iCloud 동기화</h3>
-        <p>iPhone·iPad·Mac·Watch가 한 계정. 기기를 바꿔도 기록은 그대로.</p>
+        <p>iPhone과 iPad가 한 계정으로. 기기를 바꿔도 기록은 그대로.</p>
       </article>
 
       <article class="feature-card reveal d6">
         <span class="feature-icon" style="--c1:#FFE9A3; --c2:#FF9C7A">
           <svg viewBox="0 0 24 24" fill="none" stroke="#5C3800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6Z"/><path d="M8 10h8M8 14h5"/></svg>
         </span>
-        <h3>쇼트컷</h3>
+        <h3>Shortcut</h3>
         <p>자주 쓰는 카테고리를 홈에 꽂아두고, 두 번의 탭으로 기록.</p>
       </article>
     </div>
 
     <div class="mascot-strip reveal d6">
-      <svg class="mascot" viewBox="0 0 96 96" fill="none" aria-hidden="true">
-        <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#1E7BFF"/><stop offset="1" stop-color="#6BA6FF"/></linearGradient></defs>
-        <path d="M20 34 L30 20 L40 32 H56 L66 20 L76 34 V66 a10 10 0 0 1 -10 10 H30 a10 10 0 0 1 -10 -10 Z" fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round"/>
-        <circle cx="38" cy="50" r="3" fill="#1E7BFF"/>
-        <circle cx="58" cy="50" r="3" fill="#1E7BFF"/>
-        <path d="M44 60 Q48 64 52 60" stroke="#1E7BFF" stroke-width="2.4" stroke-linecap="round" fill="none"/>
-        <path d="M32 56 h4 M60 56 h4" stroke="#1E7BFF" stroke-width="1.6" stroke-linecap="round"/>
-      </svg>
+      <img class="mascot" src="/assets/images/gobi.png" alt="" width="88" height="88" />
       <p>
         <strong>고비</strong>가 오늘도 가계부 옆에 앉아 있어요.
         과소비가 살금살금 다가올 때, 슬쩍 눈치를 줄게요.
@@ -246,12 +216,10 @@
   <div class="container">
     <div class="about-col">
       <div class="brand" style="margin-bottom: 10px;">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9 6 5l3 2h6l3-2 2 4v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9Z"/><circle cx="9" cy="13" r="1" fill="#fff" stroke="none"/><circle cx="15" cy="13" r="1" fill="#fff" stroke="none"/></svg>
-        </span>
+        <img class="brand-mark" src="/assets/images/gobi.png" alt="" width="34" height="34" />
         <span>자린이와 고비</span>
       </div>
-      <p>Swift 6 Strict Concurrency로 만든 iOS·macOS·watchOS 가계부.</p>
+      <p>iPhone과 iPad를 위한, 정직한 가계부.</p>
     </div>
     <div>
       <h4>제품</h4>
@@ -274,11 +242,10 @@
       <ul>
         <li><a href="/privacy/">개인정보처리방침</a></li>
         <li><a href="/terms/">이용약관</a></li>
-        <li><a href="https://github.com/HoJongE" rel="noopener">GitHub</a></li>
       </ul>
     </div>
     <div class="legal-line">
-      <span>© 2026 Jaeyong Lee · zarinegobi@gmail.com</span>
+      <span>© 2026 자린이와 고비 · zarinegobi@gmail.com</span>
       <span>v. 2026.04.23</span>
     </div>
   </div>

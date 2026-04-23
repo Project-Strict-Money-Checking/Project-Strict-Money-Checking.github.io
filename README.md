@@ -1,6 +1,6 @@
 # Zarinegobi — Official Website
 
-**자린이와 고비 (Zarinegobi)** iOS·macOS·watchOS 가계부 앱의 공식 웹사이트.
+**자린이와 고비 (Zarinegobi)** iOS·iPadOS 가계부 앱의 공식 웹사이트.
 
 Live: https://project-strict-money-checking.github.io/
 
