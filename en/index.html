@@ -1,32 +1,31 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-<title>자린이와 고비 — 절약하고 싶은 당신을 위한 가계부</title>
-<meta name="description" content="Swift 6 Strict Concurrency 기반 iOS·macOS·watchOS 가계부 앱. 카테고리 분석, 위젯, Apple Watch, Siri 지원. iCloud 자동 동기화." />
+<title>Zarinegobi — A pocket ledger for thrifty souls</title>
+<meta name="description" content="A Swift 6 Strict Concurrency money-tracking app for iOS, macOS, and watchOS. Category analytics, widgets, Apple Watch, Siri Shortcut, iCloud sync." />
 <meta name="theme-color" content="#0A0A0B" media="(prefers-color-scheme: dark)" />
 <meta name="theme-color" content="#FAFAF8" media="(prefers-color-scheme: light)" />
-<link rel="canonical" href="https://project-strict-money-checking.github.io/" />
+<link rel="canonical" href="https://project-strict-money-checking.github.io/en/" />
 <link rel="alternate" hreflang="ko" href="https://project-strict-money-checking.github.io/" />
 <link rel="alternate" hreflang="en" href="https://project-strict-money-checking.github.io/en/" />
 <link rel="alternate" hreflang="ja" href="https://project-strict-money-checking.github.io/ja/" />
 <link rel="alternate" hreflang="x-default" href="https://project-strict-money-checking.github.io/" />
 <meta property="og:type" content="website" />
-<meta property="og:locale" content="ko_KR" />
-<meta property="og:title" content="자린이와 고비 — 절약하고 싶은 당신을 위한 가계부" />
-<meta property="og:description" content="카테고리별 수입·지출 분석, 홈 화면 위젯, Apple Watch, Siri Shortcut, iCloud 동기화를 한 번에." />
-<meta property="og:url" content="https://project-strict-money-checking.github.io/" />
-<meta property="og:site_name" content="자린이와 고비" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:title" content="Zarinegobi — A pocket ledger for thrifty souls" />
+<meta property="og:description" content="Category analytics, home widgets, Apple Watch, Siri Shortcut, and iCloud sync in one tidy little ledger." />
+<meta property="og:url" content="https://project-strict-money-checking.github.io/en/" />
+<meta property="og:site_name" content="Zarinegobi" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <body>
 
-<!-- ============================== HEADER ============================== -->
 <header class="site-header">
   <div class="container">
-    <a class="brand" href="/" aria-label="자린이와 고비 홈">
+    <a class="brand" href="/en/" aria-label="Zarinegobi home">
       <span class="brand-mark" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
           <path d="M4 9 6 5l3 2h6l3-2 2 4v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9Z"/>
@@ -35,17 +34,17 @@
           <path d="M10.5 16c.5.5 1 .7 1.5.7s1-.2 1.5-.7"/>
         </svg>
       </span>
-      <span>자린이와 고비</span>
+      <span>Zarinegobi</span>
     </a>
-    <nav class="nav" aria-label="주요 메뉴">
-      <a href="#features">기능</a>
-      <a href="#screenshots">화면</a>
-      <a href="/support/">지원</a>
-      <a href="/privacy/">개인정보</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#features">Features</a>
+      <a href="#screenshots">Screens</a>
+      <a href="/support/">Support</a>
+      <a href="/privacy/en.html">Privacy</a>
     </nav>
-    <div class="lang-switch" aria-label="언어 선택">
-      <a href="/" class="active" aria-current="page">KO</a>
-      <a href="/en/">EN</a>
+    <div class="lang-switch" aria-label="Language">
+      <a href="/">KO</a>
+      <a href="/en/" class="active" aria-current="page">EN</a>
       <a href="/ja/">JA</a>
     </div>
   </div>
@@ -53,28 +52,27 @@
 
 <main>
 
-<!-- ============================== HERO ============================== -->
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
       <span class="eyebrow reveal d1"><span class="dot"></span> iOS · macOS · watchOS</span>
       <h1 class="reveal d2">
-        오늘의 <span class="accent-expense">지출</span>과<br />
-        내일의 <span class="accent-income">수입</span>을,<br />
-        한 권으로.
+        Today's <span class="accent-expense">spend</span>,<br />
+        tomorrow's <span class="accent-income">income</span> —<br />
+        in one tidy ledger.
         <span class="en">Zarinegobi — your pocket ledger.</span>
       </h1>
       <p class="lead reveal d3">
-        Swift 6 엄격 동시성으로 설계한 가계부. 카테고리별 분석, 홈 화면 위젯,
-        Apple Watch, Siri Shortcut, iCloud 자동 동기화까지 —
-        쓰는 순간부터 정리되는 가계부.
+        A money-tracking app built with Swift 6 Strict Concurrency.
+        Category analytics, home widgets, Apple Watch, Siri Shortcut,
+        and iCloud sync — the moment you type, it's already organized.
       </p>
       <div class="cta-row reveal d4">
         <a class="btn btn-primary" href="https://apps.apple.com/app/id6740001506" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.48 2.24-1.25 3.03-.83.86-2.19 1.53-3.32 1.44-.13-1.14.41-2.32 1.21-3.11.87-.86 2.3-1.52 3.36-1.36ZM20.5 17.38c-.55 1.27-1.22 2.51-2.27 2.54-1.04.03-1.38-.62-2.57-.62-1.19 0-1.57.59-2.56.64-1.05.05-1.85-1.37-2.41-2.62-1.66-3.65-2.94-10.31 1.24-12.76 1.03-.61 2.1-.94 3.15-.95 1.02-.02 1.99.69 2.62.69.63 0 1.8-.85 3.04-.72.52.02 1.98.21 2.92 1.58-.08.05-1.75 1.02-1.74 3.04.02 2.42 2.12 3.22 2.15 3.23-.02.06-.33 1.14-1.1 2.26Z"/></svg>
-          App Store에서 받기
+          Get it on the App Store
         </a>
-        <a class="btn btn-secondary" href="#features">주요 기능 보기</a>
+        <a class="btn btn-secondary" href="#features">See features</a>
       </div>
       <div class="platform-badges reveal d5">
         <span>iOS 17+</span>
@@ -84,45 +82,43 @@
       </div>
     </div>
 
-    <!-- Hero Visual (앱 잔액 카드 재현) -->
     <div class="hero-visual reveal d3" aria-hidden="true">
       <div class="phone-card">
         <div class="balance-card">
           <div class="balance-head">
-            <span class="period">2024.11.28 — 12.17</span>
-            <span class="toggle-pill"><span class="active">월간</span><span>주간</span></span>
+            <span class="period">Nov 28 — Dec 17, 2024</span>
+            <span class="toggle-pill"><span class="active">Monthly</span><span>Weekly</span></span>
           </div>
-          <div class="balance-amount">0 원</div>
+          <div class="balance-amount">0 KRW</div>
           <div class="flow-row">
-            <span class="label">지출</span>
+            <span class="label">Spend</span>
             <span class="flow-bar expense"></span>
-            <span class="amount">130,000원</span>
+            <span class="amount">130,000</span>
           </div>
           <div class="flow-row">
-            <span class="label">수입</span>
+            <span class="label">Income</span>
             <span class="flow-bar income"></span>
-            <span class="amount">130,000원</span>
+            <span class="amount">130,000</span>
           </div>
         </div>
 
-        <!-- Category chip row (앱 아이콘 팔레트 재현) -->
         <div class="chip-row">
-          <div class="chip" style="--c1:#FFE9A3; --c2:#FFD36B" title="식비">
+          <div class="chip" style="--c1:#FFE9A3; --c2:#FFD36B" title="Food">
             <svg viewBox="0 0 24 24" fill="#8B5A00" stroke="#8B5A00" stroke-width="1" stroke-linejoin="round"><path d="M5 10h14l-1.5 8h-11L5 10Z"/><path d="M7 10c0-3 2-5 5-5s5 2 5 5"/></svg>
           </div>
-          <div class="chip" style="--c1:#FFC7B0; --c2:#FF9C7A" title="교육">
+          <div class="chip" style="--c1:#FFC7B0; --c2:#FF9C7A" title="Education">
             <svg viewBox="0 0 24 24" fill="none" stroke="#8B3A15" stroke-width="1.4" stroke-linejoin="round"><path d="M3 5h7c1.5 0 3 .8 3 2v12c0-1-1.5-2-3-2H3V5Z" fill="#FFF"/><path d="M21 5h-7c-1.5 0-3 .8-3 2v12c0-1 1.5-2 3-2h7V5Z" fill="#FFF"/></svg>
           </div>
-          <div class="chip" style="--c1:#C7B8FF; --c2:#9A83FF" title="쇼핑">
-            <svg viewBox="0 0 24 24" fill="#1A1040" stroke="#1A1040" stroke-width="1.2" stroke-linejoin="round"><path d="M6 8h12l-1 12H7L6 8Z" fill="#1A1040"/><path d="M9 8V6a3 3 0 1 1 6 0v2" fill="none" stroke-linecap="round"/></svg>
+          <div class="chip" style="--c1:#C7B8FF; --c2:#9A83FF" title="Shopping">
+            <svg viewBox="0 0 24 24" fill="#1A1040" stroke="#1A1040" stroke-width="1.2" stroke-linejoin="round"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 1 1 6 0v2" fill="none" stroke-linecap="round"/></svg>
           </div>
-          <div class="chip" style="--c1:#B9F0D8; --c2:#7BE0B1" title="카페">
+          <div class="chip" style="--c1:#B9F0D8; --c2:#7BE0B1" title="Cafe">
             <svg viewBox="0 0 24 24" fill="#0A3A25" stroke="#0A3A25" stroke-width="1.2" stroke-linejoin="round"><path d="M6 9h12v7a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V9Z"/><path d="M18 11h1a2 2 0 0 1 0 4h-1" fill="none"/></svg>
           </div>
-          <div class="chip" style="--c1:#B7D8FF; --c2:#6BA6FF" title="여행">
+          <div class="chip" style="--c1:#B7D8FF; --c2:#6BA6FF" title="Travel">
             <svg viewBox="0 0 24 24" fill="#0A2A55" stroke="#0A2A55" stroke-width="1.2" stroke-linejoin="round"><rect x="5" y="8" width="14" height="12" rx="2"/><path d="M9 8V5h6v3" fill="none" stroke-linecap="round"/></svg>
           </div>
-          <div class="chip" style="--c1:#FFB3C7; --c2:#FF6E94" title="구독">
+          <div class="chip" style="--c1:#FFB3C7; --c2:#FF6E94" title="Subscriptions">
             <svg viewBox="0 0 24 24" fill="#5C0A1E" stroke="#5C0A1E" stroke-width="1.2" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="m10 10 5 2.9-5 2.9v-5.8Z" fill="#fff" stroke="#fff"/></svg>
           </div>
         </div>
@@ -131,13 +127,12 @@
   </div>
 </section>
 
-<!-- ============================== FEATURES ============================== -->
 <section id="features">
   <div class="container">
     <div class="section-head">
       <div class="tag">FEATURES</div>
-      <h2>쓰는 순간 정리되는, 여덟 가지 방식</h2>
-      <p>가계부 앱이 가져야 할 것들을, 꼭 필요한 만큼만 — 군더더기 없이.</p>
+      <h2>Eight honest tools — nothing more.</h2>
+      <p>What a ledger should have. Exactly that much.</p>
     </div>
 
     <div class="feature-grid">
@@ -145,32 +140,32 @@
         <span class="feature-icon" style="--c1:#FFE9A3; --c2:#FFD36B">
           <svg viewBox="0 0 24 24" fill="none" stroke="#8B5A00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
         </span>
-        <h3>빠른 기록</h3>
-        <p>카테고리·금액·메모만 입력하면 끝. 고정 거래는 자동으로 반복 기록.</p>
+        <h3>Quick entry</h3>
+        <p>Category, amount, a note — done. Recurring transactions repeat themselves.</p>
       </article>
 
       <article class="feature-card reveal d2">
         <span class="feature-icon" style="--c1:#B7D8FF; --c2:#1E7BFF">
           <svg viewBox="0 0 24 24" fill="none" stroke="#0A2A55" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg>
         </span>
-        <h3>카테고리 분석</h3>
-        <p>월별·주별 도넛 차트. 어디에 가장 많이 썼는지 한눈에 확인.</p>
+        <h3>Category analytics</h3>
+        <p>Monthly and weekly donut charts. See where the money actually went.</p>
       </article>
 
       <article class="feature-card reveal d3">
         <span class="feature-icon" style="--c1:#C7B8FF; --c2:#9A83FF">
           <svg viewBox="0 0 24 24" fill="none" stroke="#1A1040" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18V9l8-5 8 5v9"/><path d="M9 18v-6h6v6"/></svg>
         </span>
-        <h3>목표와 예산</h3>
-        <p>카테고리별 월 예산을 정해두면, 초과 시 즉시 알림.</p>
+        <h3>Goals & budgets</h3>
+        <p>Set a monthly cap per category; get a nudge the moment you cross it.</p>
       </article>
 
       <article class="feature-card reveal d4">
         <span class="feature-icon" style="--c1:#B9F0D8; --c2:#7BE0B1">
           <svg viewBox="0 0 24 24" fill="none" stroke="#0A3A25" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="16" height="14" rx="2"/><path d="M8 3v3M16 3v3M4 10h16"/></svg>
         </span>
-        <h3>홈 화면 위젯</h3>
-        <p>이번 달 잔액·최근 소비를 잠금화면/홈에서 바로.</p>
+        <h3>Home widgets</h3>
+        <p>This month's balance and latest spends, pinned to lock screen or home.</p>
       </article>
 
       <article class="feature-card reveal d4">
@@ -178,7 +173,7 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="#8B3A15" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="3" width="10" height="18" rx="3"/><circle cx="12" cy="18" r="0.8" fill="#8B3A15"/></svg>
         </span>
         <h3>Apple Watch</h3>
-        <p>손목에서 금액만 톡. 밖에서 지출 기록도 놓치지 않게.</p>
+        <p>Tap in an amount from your wrist — spontaneous spends never slip away.</p>
       </article>
 
       <article class="feature-card reveal d5">
@@ -186,23 +181,23 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="#5C0A1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a4 4 0 0 1 4 4v4a4 4 0 0 1-8 0V7a4 4 0 0 1 4-4Z"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4"/></svg>
         </span>
         <h3>Siri Shortcut</h3>
-        <p>"카페 5천원 기록해줘" 한 마디로 App Intents 연동.</p>
+        <p>"Log 5,000 won for cafe" — one sentence, via App Intents.</p>
       </article>
 
       <article class="feature-card reveal d5">
         <span class="feature-icon" style="--c1:#B7D8FF; --c2:#6BA6FF">
           <svg viewBox="0 0 24 24" fill="none" stroke="#0A2A55" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 10c-2 0-3 1.5-3 3.5S4.5 17 6.5 17H17a4 4 0 1 0-1-7.9A6 6 0 0 0 6 10Z"/></svg>
         </span>
-        <h3>iCloud 동기화</h3>
-        <p>iPhone·iPad·Mac·Watch가 한 계정. 기기를 바꿔도 기록은 그대로.</p>
+        <h3>iCloud sync</h3>
+        <p>iPhone, iPad, Mac, and Watch share one account. Switch devices, keep your book.</p>
       </article>
 
       <article class="feature-card reveal d6">
         <span class="feature-icon" style="--c1:#FFE9A3; --c2:#FF9C7A">
           <svg viewBox="0 0 24 24" fill="none" stroke="#5C3800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6Z"/><path d="M8 10h8M8 14h5"/></svg>
         </span>
-        <h3>쇼트컷</h3>
-        <p>자주 쓰는 카테고리를 홈에 꽂아두고, 두 번의 탭으로 기록.</p>
+        <h3>Shortcuts</h3>
+        <p>Pin a frequent category to home — two taps to record.</p>
       </article>
     </div>
 
@@ -216,32 +211,30 @@
         <path d="M32 56 h4 M60 56 h4" stroke="#1E7BFF" stroke-width="1.6" stroke-linecap="round"/>
       </svg>
       <p>
-        <strong>고비</strong>가 오늘도 가계부 옆에 앉아 있어요.
-        과소비가 살금살금 다가올 때, 슬쩍 눈치를 줄게요.
+        Meet <strong>Gobi</strong>, the blue cat who sits beside your ledger.
+        When a splurge tries to sneak past, Gobi gives it the side-eye.
       </p>
     </div>
   </div>
 </section>
 
-<!-- ============================== SCREENSHOTS ============================== -->
 <section id="screenshots">
   <div class="container">
     <div class="section-head">
       <div class="tag">SCREENS</div>
-      <h2>한 장면씩, 실제로 이렇게 쓰입니다</h2>
-      <p>앱 스토어 스크린샷 · 실제 기기 기준.</p>
+      <h2>One frame at a time — here's the app in use.</h2>
+      <p>App Store screenshots · on-device.</p>
     </div>
     <div class="shots">
-      <div class="shot" aria-label="메인 화면 스크린샷 준비 중">메인 · Coming soon</div>
-      <div class="shot" aria-label="분석 화면 스크린샷 준비 중">분석 · Coming soon</div>
-      <div class="shot" aria-label="검색 화면 스크린샷 준비 중">검색 · Coming soon</div>
+      <div class="shot">Main · Coming soon</div>
+      <div class="shot">Analytics · Coming soon</div>
+      <div class="shot">Search · Coming soon</div>
     </div>
   </div>
 </section>
 
 </main>
 
-<!-- ============================== FOOTER ============================== -->
 <footer class="site-footer">
   <div class="container">
     <div class="about-col">
@@ -249,31 +242,31 @@
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9 6 5l3 2h6l3-2 2 4v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9Z"/><circle cx="9" cy="13" r="1" fill="#fff" stroke="none"/><circle cx="15" cy="13" r="1" fill="#fff" stroke="none"/></svg>
         </span>
-        <span>자린이와 고비</span>
+        <span>Zarinegobi</span>
       </div>
-      <p>Swift 6 Strict Concurrency로 만든 iOS·macOS·watchOS 가계부.</p>
+      <p>A Swift 6 Strict Concurrency ledger for iOS, macOS, and watchOS.</p>
     </div>
     <div>
-      <h4>제품</h4>
+      <h4>Product</h4>
       <ul>
-        <li><a href="#features">기능</a></li>
-        <li><a href="#screenshots">화면</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screens</a></li>
         <li><a href="https://apps.apple.com/app/id6740001506" rel="noopener">App Store</a></li>
       </ul>
     </div>
     <div>
-      <h4>고객</h4>
+      <h4>Support</h4>
       <ul>
-        <li><a href="/support/">자주 묻는 질문</a></li>
-        <li><a href="mailto:zarinegobi@gmail.com">이메일 문의</a></li>
-        <li><a href="https://apps.apple.com/app/id6740001506?action=write-review" rel="noopener">리뷰 작성</a></li>
+        <li><a href="/support/">FAQ</a></li>
+        <li><a href="mailto:zarinegobi@gmail.com">Email us</a></li>
+        <li><a href="https://apps.apple.com/app/id6740001506?action=write-review" rel="noopener">Write a review</a></li>
       </ul>
     </div>
     <div>
-      <h4>법적 고지</h4>
+      <h4>Legal</h4>
       <ul>
-        <li><a href="/privacy/">개인정보처리방침</a></li>
-        <li><a href="/terms/">이용약관</a></li>
+        <li><a href="/privacy/en.html">Privacy Policy</a></li>
+        <li><a href="/terms/en.html">Terms of Service</a></li>
         <li><a href="https://github.com/HoJongE" rel="noopener">GitHub</a></li>
       </ul>
     </div>
