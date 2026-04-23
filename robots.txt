@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://project-strict-money-checking.github.io/sitemap.xml

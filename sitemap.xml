@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://project-strict-money-checking.github.io/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://project-strict-money-checking.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://project-strict-money-checking.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://project-strict-money-checking.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://project-strict-money-checking.github.io/"/>
+  </url>
+
+  <url>
+    <loc>https://project-strict-money-checking.github.io/en/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://project-strict-money-checking.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://project-strict-money-checking.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://project-strict-money-checking.github.io/ja/"/>
+  </url>
+
+  <url>
+    <loc>https://project-strict-money-checking.github.io/ja/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://project-strict-money-checking.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://project-strict-money-checking.github.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://project-strict-money-checking.github.io/ja/"/>
+  </url>
+
+  <url>
+    <loc>https://project-strict-money-checking.github.io/privacy/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://project-strict-money-checking.github.io/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://project-strict-money-checking.github.io/privacy/en.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://project-strict-money-checking.github.io/privacy/ja.html"/>
+  </url>
+
+  <url>
+    <loc>https://project-strict-money-checking.github.io/privacy/en.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://project-strict-money-checking.github.io/privacy/ja.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://project-strict-money-checking.github.io/terms/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://project-strict-money-checking.github.io/terms/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://project-strict-money-checking.github.io/terms/en.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://project-strict-money-checking.github.io/terms/ja.html"/>
+  </url>
+
+  <url>
+    <loc>https://project-strict-money-checking.github.io/terms/en.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://project-strict-money-checking.github.io/terms/ja.html</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://project-strict-money-checking.github.io/support/</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
